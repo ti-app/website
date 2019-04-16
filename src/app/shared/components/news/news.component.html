@@ -1,0 +1,14 @@
+<div class="fill-cloud fill-pastel pad-2 pad-expanded-vertical">
+  <h2 class="type-caption color-primary align-center margin-2-bottom">
+    In the news
+  </h2>
+  <div class="container grid grid-full grid-medium-half justify-center">
+      <div class="updates-image-list cell pad-1-horizontal pad-2-vertical" 
+      *ngFor="let news of news">
+          <app-news-card [news]="news"></app-news-card>
+      </div>  
+  </div>
+  <div class="align-center">
+    <a data-track-gtm="Root - Saving Wildlife and Wild Places|In the News|Read More News" class="btn fill-gold color-polar margin-3-top" href="https://newsroom.wcs.org/">Read More News</a>
+  </div>
+</div>

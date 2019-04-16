@@ -1,0 +1,26 @@
+<div class="story -light margin-standard-bottom -column ">
+  <div class="story__inner">
+    <div class="story__inner__content">
+      <div class="story__inner__content__accent"></div>
+      <div class="flex margin-1-bottom">
+        <span class="story__inner__content__label type-caption color-primary">{{story.subText}}</span>
+      </div>
+      <h2 class="story__inner__content__headline type-headline color-headline">
+        <a data-track-gtm="Root - Saving Wildlife and Wild Places|Story|Communities"
+          href="https://www.wcs.org/our-work/communities">{{story.header}}</a>
+      </h2>
+      <p class="story__inner__content__text margin-1-top">
+        {{story.content}}
+      </p>
+      <a data-track-gtm="Root - Saving Wildlife and Wild Places|Story|Communities"
+        class="btn fill-primary margin-2-top" href="https://www.wcs.org/our-work/communities">{{story.cta}}</a>
+    </div>
+    <div class="story__inner__thumbnail margin-3-top">
+      <div class="relative">
+        <img alt="" class="story__inner__thumbnail__img"
+          [src]="story.image">
+      </div>
+      <div class="story__inner__thumbnail__shadow" aria-hidden="true"></div>
+    </div>
+  </div>
+</div>
